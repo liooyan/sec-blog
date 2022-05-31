@@ -1,8 +1,8 @@
-package org.example.mapping;
+package cn.lioyan.blog.mapping;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.sec.autoconfigure.data.mybaits.BaseMapping;
-import org.example.bean.entity.DemoEntity;
+import cn.lioyan.blog.bean.entity.DemoEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;

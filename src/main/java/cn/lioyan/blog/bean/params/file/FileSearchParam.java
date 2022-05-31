@@ -1,4 +1,4 @@
-package org.example.bean.params.file;
+package cn.lioyan.blog.bean.params.file;
 
 import cn.sec.core.model.base.page.PageSort;
 import io.swagger.annotations.ApiModel;

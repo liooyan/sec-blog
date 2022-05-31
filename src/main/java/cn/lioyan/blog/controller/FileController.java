@@ -1,8 +1,8 @@
-package org.example.controller;
+package cn.lioyan.blog.controller;
 
-import org.example.bean.dto.FileDTO;
-import org.example.bean.params.file.FileSearchParam;
-import org.example.service.FileService;
+import cn.lioyan.blog.service.FileService;
+import cn.lioyan.blog.bean.dto.FileDTO;
+import cn.lioyan.blog.bean.params.file.FileSearchParam;
 import cn.sec.core.model.base.page.PageData;
 import com.sec.autoconfigure.file.FileInfo;
 import com.sec.autoconfigure.record.Timing;

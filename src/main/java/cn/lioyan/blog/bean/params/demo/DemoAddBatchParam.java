@@ -1,7 +1,7 @@
-package org.example.bean.params.demo;
+package cn.lioyan.blog.bean.params.demo;
 
 import cn.sec.core.model.base.InputConverter;
-import org.example.bean.entity.DemoEntity;
+import cn.lioyan.blog.bean.entity.DemoEntity;
 import io.swagger.annotations.ApiModel;
 
 import javax.validation.Valid;

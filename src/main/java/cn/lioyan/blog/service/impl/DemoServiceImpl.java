@@ -1,24 +1,25 @@
-package org.example.service.impl;
+package cn.lioyan.blog.service.impl;
 
-import org.example.bean.dto.DemoDTO;
-import org.example.bean.params.demo.DemoUpdateParam;
-import org.example.service.DemoService;
+import cn.lioyan.blog.bean.dto.DemoDTO;
+import cn.lioyan.blog.bean.entity.DemoEntity;
+import cn.lioyan.blog.bean.params.demo.DemoAddParam;
+import cn.lioyan.blog.bean.params.demo.DemoSearchParam;
+import cn.lioyan.blog.bean.params.demo.DemoUpdateParam;
+import cn.lioyan.blog.mapping.DemoMapping;
+import cn.lioyan.blog.service.DemoService;
 import cn.sec.core.model.base.page.PageData;
 import cn.sec.core.util.NullUtil;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.sec.autoconfigure.data.AbstractCrudService;
 import com.sec.autoconfigure.data.mybaits.BaseMapping;
-import org.example.bean.entity.DemoEntity;
-import org.example.bean.params.demo.DemoAddParam;
-import org.example.bean.params.demo.DemoSearchParam;
-import org.example.mapping.DemoMapping;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class DemoServiceImpl extends AbstractCrudService<DemoEntity> implements DemoService {
+public class DemoServiceImpl extends AbstractCrudService<DemoEntity> implements DemoService
+{
 
     private final DemoMapping demoMapping;
 

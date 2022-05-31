@@ -1,4 +1,4 @@
-package org.example.bean.entity;
+package cn.lioyan.blog.bean.entity;
 
 import cn.sec.core.model.base.BaseBean;
 import com.baomidou.mybatisplus.annotation.TableName;

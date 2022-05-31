@@ -1,10 +1,10 @@
-package org.example.service;
+package cn.lioyan.blog.service;
 
 import cn.sec.core.model.base.page.PageData;
-import org.example.bean.dto.DemoDTO;
-import org.example.bean.params.demo.DemoAddParam;
-import org.example.bean.params.demo.DemoSearchParam;
-import org.example.bean.params.demo.DemoUpdateParam;
+import cn.lioyan.blog.bean.dto.DemoDTO;
+import cn.lioyan.blog.bean.params.demo.DemoAddParam;
+import cn.lioyan.blog.bean.params.demo.DemoSearchParam;
+import cn.lioyan.blog.bean.params.demo.DemoUpdateParam;
 
 import java.util.List;
 

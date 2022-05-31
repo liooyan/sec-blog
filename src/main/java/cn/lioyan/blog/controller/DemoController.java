@@ -1,13 +1,13 @@
-package org.example.controller;
+package cn.lioyan.blog.controller;
 
+import cn.lioyan.blog.service.DemoService;
 import cn.sec.core.model.base.page.PageData;
 import com.sec.autoconfigure.record.Timing;
-import org.example.bean.dto.DemoDTO;
-import org.example.bean.params.demo.DemoAddBatchParam;
-import org.example.bean.params.demo.DemoAddParam;
-import org.example.bean.params.demo.DemoSearchParam;
-import org.example.bean.params.demo.DemoUpdateParam;
-import org.example.service.DemoService;
+import cn.lioyan.blog.bean.dto.DemoDTO;
+import cn.lioyan.blog.bean.params.demo.DemoAddBatchParam;
+import cn.lioyan.blog.bean.params.demo.DemoAddParam;
+import cn.lioyan.blog.bean.params.demo.DemoSearchParam;
+import cn.lioyan.blog.bean.params.demo.DemoUpdateParam;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

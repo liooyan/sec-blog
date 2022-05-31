@@ -1,7 +1,6 @@
-package org.example.mapping;
+package cn.lioyan.blog.mapping;
 
-import org.example.bean.entity.DemoEntity;
-import org.example.bean.entity.FileEntity;
+import cn.lioyan.blog.bean.entity.FileEntity;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.sec.autoconfigure.data.mybaits.BaseMapping;
 import org.apache.ibatis.annotations.Mapper;

@@ -1,10 +1,10 @@
-package org.example.service.impl;
+package cn.lioyan.blog.service.impl;
 
-import org.example.bean.dto.FileDTO;
-import org.example.bean.entity.FileEntity;
-import org.example.bean.params.file.FileSearchParam;
-import org.example.mapping.FileMapping;
-import org.example.service.FileService;
+import cn.lioyan.blog.bean.dto.FileDTO;
+import cn.lioyan.blog.bean.entity.FileEntity;
+import cn.lioyan.blog.bean.params.file.FileSearchParam;
+import cn.lioyan.blog.mapping.FileMapping;
+import cn.lioyan.blog.service.FileService;
 import cn.sec.core.exception.ServiceException;
 import cn.sec.core.model.base.page.PageData;
 import cn.sec.core.util.NullUtil;
@@ -30,7 +30,8 @@ import java.util.stream.Collectors;
  * @since 2022/4/28 14:16
  */
 @Service
-public class FileServiceImpl extends AbstractCrudService<FileEntity> implements FileService {
+public class FileServiceImpl extends AbstractCrudService<FileEntity> implements FileService
+{
 
     private final GeneralFileSystem generalFileSystem;
     private final FileMapping fileMapping;

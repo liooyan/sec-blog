@@ -1,6 +1,6 @@
-package org.example.bean.dto;
+package cn.lioyan.blog.bean.dto;
 
-import org.example.bean.entity.FileEntity;
+import cn.lioyan.blog.bean.entity.FileEntity;
 import cn.sec.core.model.base.OutputConverter;
 
 
